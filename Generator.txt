@@ -1,0 +1,4 @@
+pyinstaller -F --windowed --add-data vcruntime140.dll;. test.py
+
+taskkill /IM test.exe /F
+
